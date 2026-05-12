@@ -644,6 +644,7 @@ var successStatus = set.CreateIntSet(
 	http.StatusOK,
 	http.StatusNoContent,
 	http.StatusPartialContent,
+	http.StatusAccepted,
 )
 
 // executeMethod - instantiates a given method, and retries the
